@@ -1,0 +1,55 @@
+\documentclass[]{article}
+\usepackage{geometry}
+\usepackage{array}
+\usepackage{graphicx}
+\geometry{
+	letterpaper,
+	left=1in,
+	right=1in,
+	top=1in,
+	bottom=1in,
+}
+%opening
+\title{Arquitectura 5G}
+\author{Joshua Cardenas y Santiago Benjumea}
+
+\begin{document}
+\maketitle
+
+
+
+
+
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{|m{4.2cm}|m{1.8cm}|m{4.5cm}|m{5.5cm}|}
+			\hline
+			Nombre & Abreviatura & Funcionamiento& Características \\
+			\hline
+			Función de movilidad y acceso & AMF & Acceso a la red de los UE  & Autentifican y autorización de los UE (Equipo de usuario) \\
+			\hline
+			Función de gestión de sesión  & SMF & Gestiona la sesión de comunicación entre el UE y los servicios de red.& Gestiona la calidad del servicio QOS (jitter, latencia, dawn-up link).
+		 Establece, modifica y libera las sesiones de comunicación.
+				\\	
+		\hline
+		Función de plano de usuario & UPF & Procesamiento y enrutamiento de los datos de usuario en la red& Juega un papel importante en la entrega de servicios de red de baja latencia y alta velocidad, como la realidad virtual y aumentada, la conducción autónoma y otros servicios que requieren una respuesta inmediata. \\
+			\hline
+			Función de control de  políticas & PCF &  gestión de políticas en la red 5G & Políticas de control del core a cada UE. (Portadoras y ancho de banda asignado) \\
+			\hline
+			Gestión Unificada de Datos & UDM & Almacenamiento, gestión y control de la información de cada UD & Maneja IMSI (Identificación única del usuario ), Ki ( Clave de autentificación)y OPC (Autentificación del usuario). \\
+			\hline
+			Nodo B Evolucionado & eNB &  Estación base de radio & Se comunica con los dispositivos móviles (como teléfonos inteligentes, tabletas, entre otros) para proporcionar acceso a la red 4G LTE\\
+			\hline
+			Nodo B de próxima generación& gNB & Estación base de radio & Soportar diferentes frecuencias y anchos de banda, tecnologías avanzadas como el MIMO masivo (Multiple-Input Multiple-Output),lo que permite una mayor velocidad de datos y una mejor cobertura de la red. \\
+			\hline
+		
+		\end{tabular}
+		\caption{Composición red 5G.}
+		\label{tab:teorias}
+	\end{table}
+
+
+	
+
+	
+\end{document}
